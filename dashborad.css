@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;700&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;600;700&family=Roboto+Mono:wght@200;300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.image img{
+    border-radius: 50%;
+    max-width: 52px;
+    margin-right: 1.7rem;
+    position: fixed;
+    margin-bottom: 2rem;
+}
+
+.image{
+    display: flex;
+    /* align-items: center; */
+    padding: 1rem 2rem;
+    /* flex-wrap: nowrap; */
+    white-space: nowrap;
+}
+
+.mainmenu{
+    display: flex;
+}
+
+#one{
+    margin-top: 9rem;
+}
+body{
+   display: flex;
+   background-color:#0e0d0dcf ;
+}
+
+
+
+.slider{
+    background-color: #333333d5;
+    height: 330vh;
+    width: 110px;
+    transition: all 0.4s ease;
+
+    /* position: fixed; */
+}
+
+.newclass{
+    width: 450px;
+    transition: all 0.3s ease;
+}
+
+.newclass .list-item span{
+    display: inline-block;
+} 
+
+.newclass 
+.image h1{
+    display: block;
+    margin-left: 5rem;
+    transition: all 2s ease;
+}
+
+
+.image h1{
+    color: white;
+    line-height: 3rem;
+    font-weight: 500;
+    letter-spacing: 0.9px;
+    display: none;
+}
+
+.list{
+    color: #fbfbfb;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    white-space: nowrap;
+    /* position: fixed; */
+}
+
+.listparent{
+    position: fixed;
+}
+
+.list i{
+    /* background-color: red; */
+    font-size: 30px;
+    margin-right: 1.7rem;
+    color: #fbfbfb;
+}
+
+.list-item{
+    padding: 1.1rem 0;
+    list-style: none;
+    margin-right: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.dash{
+    background-color: rgb(1, 255, 225);
+}
+
+.list-item:hover{
+    border-radius: 10px;
+    background-color: rgba(130, 4, 255, 0.604);
+    transition: 0.2s;
+}
+
+.list-item span{
+    font-size: 19px;
+    display: none;
+    letter-spacing: 0.9px;
+}
+
+.box{
+    padding: 0rem 1.2rem;
+    border-radius: 20px;
+    background-color: #04d1cb;
+    margin-left: 2rem;
+    color: #04d1cb;
+    position: relative;
+    /* width: 20px; */
+}
+
+.box::before{
+    position: absolute;
+    content: "";
+    width: 18px;
+    bottom: 0.15rem;
+    left: 0.3rem;
+    height: 18px;
+    border-radius: 50%;
+    background-color: rgb(91, 91, 91);
+}
+
+
+/* second section */
+
+.secicon #iconid{
+    font-size: 37px;
+    padding: 0 0.3rem;
+    border: 2px solid white;
+    border-radius: 5px;
+    /* display: block; */
+    color: white;
+}
+
+.sec{
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.imgw{
+    height: 75px;
+    width: 75px;
+
+}
+
+.imgw img{
+    height: 60px;
+    border: 3px solid white;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.serechbox #paltu {
+ width: 100%;
+ height: 100%;
+ /* border-radius: 10px; */
+ border: none;
+ outline: none;
+ background-color: transparent;
+    
+}
+
+tr{
+    color: white;
+    /* text-align: center; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.inner{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    color: white;
+    justify-content: space-between;
+}
+
+.inner h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    color: #04d1cb;
+}
+
+.inner p{
+    padding: 1rem 0;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+   
+}
+
+
+
+.serechbox{
+display: flex;
+    align-items: center;
+  position: relative;
+  height: 43px;
+  max-width: 800px;
+  width: 100%;
+  border-radius: 7px;
+  margin: 0 30px;
+  background-color: rgb(255, 255, 255);
+}
+
+.secicon{
+   width: 100%;
+   /* left: 300px; */
+   position: relative;
+   height: 100vh;
+}
+
+.firstsection{
+    margin: 2rem 4rem;
+}
+
+.serechbox i{
+    font-size: 25px;
+    padding: 0 2rem;
+}
+
+::-webkit-input-placeholder{
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 0.8;
+    letter-spacing: 0.5px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text{
+    color: white;
+    display: flex;
+    padding: 0.5rem 1rem;
+    border: 3px solid white;
+    width: 17rem;
+    border-radius: 7px;
+    margin-bottom: 4rem;
+}
+
+.text1{
+    color: white;
+    display: flex;
+    padding: 0.5rem 1rem;
+    border: 3px solid white;
+    width: 21.5rem;
+    margin-top: 3.2rem;
+    border-radius: 7px;
+    margin-bottom: 4rem;
+}
+
+/* table div{
+    display: grid;
+    gri
+} */
+
+.text i{
+    padding: 0.5rem 0.8rem;
+    font-size: 20px;
+    background-color: #6b00e5;
+    border-radius: 6px;
+    margin-right: 1rem;
+}
+
+.text1 i{
+    padding: 0.5rem 0.8rem;
+    font-size: 20px;
+    background-color: #6b00e5;
+    border-radius: 6px;
+    margin-right: 1rem;
+}
+
+.text h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.text1 h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+
+.boxitem{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    padding: 1.5rem 0rem;
+    background-color: rgba(108, 107, 107, 0.9);
+    border-radius: 7px;
+    margin-bottom: 2rem;
+    box-shadow: rgba(77, 76, 76, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.189) 0px 12px 16px;
+    transition: all 1s ease;
+}
+
+.boxitem:hover{
+    transform: scale(0.95);
+}
+
+.boxitem h4{
+    font-weight: 600;
+    font-family: cursive;
+    letter-spacing: 2px;
+    margin: 1rem 0;
+    font-size: 25px;
+    margin-bottom: 2rem;
+}
+
+.boxitem h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.boxitem i{
+    font-size: 38px;
+    margin-top: 2rem;
+    font-weight: 700;
+}
+
+.secbox{
+    margin: 1rem 2rem;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5rem;
+}
+
+.bottombox{
+   display: flex;
+    justify-content: space-around;
+}
+
+.frist{
+    display: flex;
+}
+
+.frist{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 1rem 2.8rem;
+    font-weight:600;
+    border-radius: 6px;
+    letter-spacing: 0.5px;
+    color: white;
+    background-color: rgb(112, 12, 226);
+}
+
+.frist button{
+    font-size: 19px;
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+
+.frist i{
+    font-size: 28px;
+    padding: 0 .5rem;
+    margin-bottom: 0.2rem;
+}
+
+ h2{
+    position: relative;
+    padding-bottom: 0.8rem;
+    transition: all .4s ease;
+
+ }
+h2::before{
+    content: "";
+    position: absolute;
+    background-color: #6b00e5;
+    bottom: 0;
+    height: 4px;
+    border-radius:  30px;
+    width: 2rem;
+    transition: all .4s ease;
+
+}
+ 
+h2:hover:before{
+    background-color: #6b00e5;
+    height: 4px;
+    width: 8rem;
+    transition: all .4s ease;
+}
+
+
+
+
+
+
+
+
+
+
+/*======== media qurey all  ============*/
+
+@media (max-width:800px) {
+    .slider{
+        width: 110px;
+        transition: all 0.8s ease;
+    }
+
+    .secicon #iconid{
+        display: none;
+    }
+
+        
+    .newclass .image h1{
+        display: none;
+    }
+
+    .newclass .list-item span{
+        display: none;
+    }
+
+    
+    .serechbox #paltu{
+        margin-right: 2rem;
+    }
+
+    
+.secbox{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 5rem;
+    margin-bottom: 2rem;
+}
+
+
+.bottombox{
+    display: block;
+     justify-content: space-around;
+ }
+
+ .frist{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+ }
+ 
+.inner{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    color: white;
+    justify-content: space-between;
+}
+
+.namebox{
+    margin-top: 2rem;
+}
+
+}
